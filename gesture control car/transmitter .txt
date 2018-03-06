@@ -32,7 +32,7 @@ void loop()
   
   //Serial.print("\n");
   
-  if ((xval>370 && xval<385) && (yval>360 && yval<380)) //stationary or stop(transmitter parallel to ground)
+  if ((xval>370 && xval<385) && (yval>360 && yval<380)) //stationary or stop
   {
     digitalWrite(ledPin,LOW);
     send("s");
