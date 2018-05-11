@@ -5,7 +5,7 @@ Readings of accelerometer has to be studied in real time to obtain range for eac
 Small time lag between gesture and corresponding action will be present.It has been reduced as much as possible.
 The 'transmitter' code has to be burned into the Arduino UNO connected to the accelerometer that acts as the transmitter.
 The 'reciever' code has to be burned into the Arduino UNO connected to the car,this acts as reciever.
-The instruction are transmitted using RF transmitter reciever couple.
+The instruction are transmitted using RF transmitter reciever couple. Encoder and decoder are omitted as this is done using the arduino itself by using virtual wire library, instead of sending digital signals it is sending chaaracters.
 
 COMPONENTS USED:
 
